@@ -1,0 +1,12 @@
+"C:\Program Files\JetBrains\CLion 2019.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\mirko\CLionProjects\WayOfAdventure
+-- Found SFML 2.5.1 in C:/Users/mirko/CLionProjects/WayOfAdventure/lib/SFML/lib/cmake/SFML
+-- SFML_INCLUDE_DIR: ../lib/SFML/include
+-- SFML_LIBRARIES: 
+-- SFML_VERSION: 2.5.1
+-- Found SFML 2.5.1 in C:/Users/mirko/CLionProjects/WayOfAdventure/lib/SFML/lib/cmake/SFML
+-- SFML_INCLUDE_DIR: lib/SFML/include
+-- SFML_LIBRARIES: 
+-- SFML_VERSION: 2.5.1
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/mirko/CLionProjects/WayOfAdventure/cmake-build-debug

@@ -1,0 +1,11 @@
+C:/Users/mirko/CLionProjects/WayOfAdventure/cmake-build-debug/CMakeFiles/WayOfAdventure.dir
+C:/Users/mirko/CLionProjects/WayOfAdventure/cmake-build-debug/CMakeFiles/core.dir
+C:/Users/mirko/CLionProjects/WayOfAdventure/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mirko/CLionProjects/WayOfAdventure/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/mirko/CLionProjects/WayOfAdventure/cmake-build-debug/googleTest/CMakeFiles/GoogleTests.dir
+C:/Users/mirko/CLionProjects/WayOfAdventure/cmake-build-debug/googleTest/CMakeFiles/edit_cache.dir
+C:/Users/mirko/CLionProjects/WayOfAdventure/cmake-build-debug/googleTest/CMakeFiles/rebuild_cache.dir
+C:/Users/mirko/CLionProjects/WayOfAdventure/cmake-build-debug/googleTest/lib/googletest/CMakeFiles/gtest.dir
+C:/Users/mirko/CLionProjects/WayOfAdventure/cmake-build-debug/googleTest/lib/googletest/CMakeFiles/gtest_main.dir
+C:/Users/mirko/CLionProjects/WayOfAdventure/cmake-build-debug/googleTest/lib/googletest/CMakeFiles/edit_cache.dir
+C:/Users/mirko/CLionProjects/WayOfAdventure/cmake-build-debug/googleTest/lib/googletest/CMakeFiles/rebuild_cache.dir

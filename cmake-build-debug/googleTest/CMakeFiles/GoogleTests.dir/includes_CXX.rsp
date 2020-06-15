@@ -1,0 +1,1 @@
+-IC:/Users/mirko/CLionProjects/WayOfAdventure/googleTest/lib/googletest -IC:/Users/mirko/CLionProjects/WayOfAdventure/googleTest/SFML_INCLUDE_DIR -isystem C:/Users/mirko/CLionProjects/WayOfAdventure/googleTest/lib/googletest/include -isystem C:/Users/mirko/CLionProjects/WayOfAdventure/lib/SFML/include 
