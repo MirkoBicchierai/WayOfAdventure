@@ -3,3 +3,10 @@
 #define FONT_ROOT "../font"
 #define IMG_ROOT "../img"
 #define TITLE "Way Of Adventure"
+
+enum controlP{
+    leftP=0,
+    RightP=1,
+    maxCrun=8,
+    maxcIdle=10,
+};

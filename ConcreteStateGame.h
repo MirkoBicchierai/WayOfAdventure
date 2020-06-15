@@ -9,6 +9,8 @@ public:
     void Init() override;
 
 private:
+    sf::Clock controlMovePlayer;
+    sf::Clock idleClock;
     void backToMenu(); //switch state to Game
     Player mainCharacter;
 };

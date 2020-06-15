@@ -1,7 +1,3 @@
-#ifndef SFMLGAME_MENU_H
-#define SFMLGAME_MENU_H
-#define MAX_NUMBER_ITEMS_MENU 2
-
 #include <SFML/Graphics.hpp>
 
 class Menu {
@@ -41,4 +37,3 @@ private:
 
 };
 
-#endif

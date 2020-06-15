@@ -29,6 +29,20 @@ void ConcreteStateGame::handleInput(){
 
 void ConcreteStateGame::update(){
 
+    if(mainCharacter.idle && idleClock.getElapsedTime().asMilliseconds()>=50.f){
+        mainCharacter.idleAnimation();
+        idleClock.restart();
+    }
+
+    if(controlMovePlayer.getElapsedTime().asMilliseconds()>=350.f){
+        if(mainCharacter.currentXYPlayer != mainCharacter.entitySprite.getPosition()){
+            mainCharacter.currentXYPlayer=mainCharacter.entitySprite.getPosition();
+            mainCharacter.idle=false;
+        }else
+            mainCharacter.idle=true;
+        controlMovePlayer.restart();
+    }
+
 }
 
 void ConcreteStateGame::draw(){

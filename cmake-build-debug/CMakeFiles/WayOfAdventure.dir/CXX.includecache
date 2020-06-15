@@ -676,17 +676,45 @@ SFML/Config.hpp
 
 ../lib/SFML/include/SFML/Window/WindowStyle.hpp
 
-C:/Users/mirko/CLionProjects/WayOfAdventure/Player.cpp
-Player.h
-C:/Users/mirko/CLionProjects/WayOfAdventure/Player.h
+C:/Users/mirko/CLionProjects/WayOfAdventure/ConcreteStateGame.cpp
 config.cpp
 C:/Users/mirko/CLionProjects/WayOfAdventure/config.cpp
 SFML/Graphics.hpp
 C:/Users/mirko/CLionProjects/WayOfAdventure/SFML/Graphics.hpp
+ConcreteStateGame.h
+C:/Users/mirko/CLionProjects/WayOfAdventure/ConcreteStateGame.h
+ConcreteStateMenu.h
+C:/Users/mirko/CLionProjects/WayOfAdventure/ConcreteStateMenu.h
+iostream
+-
+
+C:/Users/mirko/CLionProjects/WayOfAdventure/ConcreteStateGame.h
+GameState.h
+C:/Users/mirko/CLionProjects/WayOfAdventure/GameState.h
+Player.h
+C:/Users/mirko/CLionProjects/WayOfAdventure/Player.h
+
+C:/Users/mirko/CLionProjects/WayOfAdventure/ConcreteStateMenu.h
+GameState.h
+C:/Users/mirko/CLionProjects/WayOfAdventure/GameState.h
+Menu.h
+C:/Users/mirko/CLionProjects/WayOfAdventure/Menu.h
+
+C:/Users/mirko/CLionProjects/WayOfAdventure/Game.h
+vector
+-
+SFML/Graphics.hpp
+C:/Users/mirko/CLionProjects/WayOfAdventure/SFML/Graphics.hpp
+
+C:/Users/mirko/CLionProjects/WayOfAdventure/GameState.h
+Game.h
+C:/Users/mirko/CLionProjects/WayOfAdventure/Game.h
+
+C:/Users/mirko/CLionProjects/WayOfAdventure/Menu.h
+SFML/Graphics.hpp
+-
 
 C:/Users/mirko/CLionProjects/WayOfAdventure/Player.h
-config.cpp
-C:/Users/mirko/CLionProjects/WayOfAdventure/config.cpp
 SFML/Graphics.hpp
 C:/Users/mirko/CLionProjects/WayOfAdventure/SFML/Graphics.hpp
 
