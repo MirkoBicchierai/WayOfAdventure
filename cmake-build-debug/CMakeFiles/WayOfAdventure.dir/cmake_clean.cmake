@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/WayOfAdventure.dir/GameState.cpp.obj"
   "CMakeFiles/WayOfAdventure.dir/ConcreteStateGame.cpp.obj"
   "CMakeFiles/WayOfAdventure.dir/Player.cpp.obj"
+  "CMakeFiles/WayOfAdventure.dir/TileMap.cpp.obj"
+  "CMakeFiles/WayOfAdventure.dir/Tile.cpp.obj"
   "WayOfAdventure.pdb"
   "WayOfAdventure.exe"
   "WayOfAdventure.exe.manifest"

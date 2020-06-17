@@ -3,6 +3,7 @@
 #define FONT_ROOT "../font"
 #define IMG_ROOT "../img"
 #define TITLE "Way Of Adventure"
+#define MAP_ROOT "../img/Map"
 
 enum controlP{
     leftP=0,

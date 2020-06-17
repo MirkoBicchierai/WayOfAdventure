@@ -47,13 +47,24 @@ void ConcreteStateGame::update(){
 
 void ConcreteStateGame::draw(){
     mainCharacter.draw(game->window);
+    for(auto i:actualLevel.tileTerrain){
+        i.drawTile(game->window);
+    }
+    for(auto j:actualLevel.tileObj){
+        j.drawTile(game->window);
+    }
+    for(auto k:actualLevel.tileWater){
+        k.drawTile(game->window);
+    }
 }
 
 void ConcreteStateGame::backToMenu(){
     game->init=true;
     game->pushState(new ConcreteStateMenu(game));
+    std::cout<<"funge";
 }
 
 void ConcreteStateGame::Init() {
+    actualLevel.load(MAP_ROOT"/Basic/Tiles/TileSet.png","Level1",sf::Vector2u(100,20));
     game->init=false;
 }

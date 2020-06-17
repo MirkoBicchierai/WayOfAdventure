@@ -83,6 +83,8 @@ CMakeFiles/core.dir/ConcreteStateGame.cpp.obj
  C:/Users/mirko/CLionProjects/WayOfAdventure/GameState.h
  C:/Users/mirko/CLionProjects/WayOfAdventure/Menu.h
  C:/Users/mirko/CLionProjects/WayOfAdventure/Player.h
+ C:/Users/mirko/CLionProjects/WayOfAdventure/Tile.h
+ C:/Users/mirko/CLionProjects/WayOfAdventure/TileMap.h
  C:/Users/mirko/CLionProjects/WayOfAdventure/config.cpp
 CMakeFiles/core.dir/ConcreteStateMenu.cpp.obj
  ../lib/SFML/include/SFML/Config.hpp
@@ -166,6 +168,8 @@ CMakeFiles/core.dir/ConcreteStateMenu.cpp.obj
  C:/Users/mirko/CLionProjects/WayOfAdventure/GameState.h
  C:/Users/mirko/CLionProjects/WayOfAdventure/Menu.h
  C:/Users/mirko/CLionProjects/WayOfAdventure/Player.h
+ C:/Users/mirko/CLionProjects/WayOfAdventure/Tile.h
+ C:/Users/mirko/CLionProjects/WayOfAdventure/TileMap.h
  C:/Users/mirko/CLionProjects/WayOfAdventure/config.cpp
 CMakeFiles/core.dir/Game.cpp.obj
  ../lib/SFML/include/SFML/Config.hpp

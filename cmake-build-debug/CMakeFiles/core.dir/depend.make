@@ -82,6 +82,8 @@ CMakeFiles/core.dir/ConcreteStateGame.cpp.obj: ../Game.h
 CMakeFiles/core.dir/ConcreteStateGame.cpp.obj: ../GameState.h
 CMakeFiles/core.dir/ConcreteStateGame.cpp.obj: ../Menu.h
 CMakeFiles/core.dir/ConcreteStateGame.cpp.obj: ../Player.h
+CMakeFiles/core.dir/ConcreteStateGame.cpp.obj: ../Tile.h
+CMakeFiles/core.dir/ConcreteStateGame.cpp.obj: ../TileMap.h
 CMakeFiles/core.dir/ConcreteStateGame.cpp.obj: ../config.cpp
 
 CMakeFiles/core.dir/ConcreteStateMenu.cpp.obj: ../lib/SFML/include/SFML/Config.hpp
@@ -165,6 +167,8 @@ CMakeFiles/core.dir/ConcreteStateMenu.cpp.obj: ../Game.h
 CMakeFiles/core.dir/ConcreteStateMenu.cpp.obj: ../GameState.h
 CMakeFiles/core.dir/ConcreteStateMenu.cpp.obj: ../Menu.h
 CMakeFiles/core.dir/ConcreteStateMenu.cpp.obj: ../Player.h
+CMakeFiles/core.dir/ConcreteStateMenu.cpp.obj: ../Tile.h
+CMakeFiles/core.dir/ConcreteStateMenu.cpp.obj: ../TileMap.h
 CMakeFiles/core.dir/ConcreteStateMenu.cpp.obj: ../config.cpp
 
 CMakeFiles/core.dir/Game.cpp.obj: ../lib/SFML/include/SFML/Config.hpp

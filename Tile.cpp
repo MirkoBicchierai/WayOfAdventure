@@ -1,11 +1,12 @@
 #include "Tile.h"
-#include <iostream>
 #include "config.cpp"
-Tile::Tile(int id,int i, int j) {
+
+Tile::Tile(int id,int i, int j, const std::string &ty) {
     idTile=id;
     this->i=i;
     this->j=j;
     factor=0.f;
+    type=ty;
 }
 
 void Tile::setTile(sf::Texture &txt, sf::Vector2u tileSize) {

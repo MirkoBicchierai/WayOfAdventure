@@ -1,3 +1,4 @@
+
 #include <SFML/Graphics.hpp>
 class Tile {
 public:
@@ -6,10 +7,10 @@ public:
     sf::Sprite spriteShow;
     sf::Sprite spriteCollision;
     Tile()= default;
-    Tile(int id,int i, int j);
+    Tile(int id,int i, int j, const std::string &ty);
     void setTile(sf::Texture &txt, sf::Vector2u tileSize); //set the texture and the draw position of the tile
     void drawTile(sf::RenderWindow &window);
-
+    std::string type;
 private:
     float factor;
     sf::IntRect sourceRect;

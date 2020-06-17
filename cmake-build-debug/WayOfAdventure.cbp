@@ -321,15 +321,19 @@
 			<Option target="core"/>
 		</Unit>
 		<Unit filename="C:/Users/mirko/CLionProjects/WayOfAdventure/Tile.cpp">
+			<Option target="WayOfAdventure"/>
 			<Option target="core"/>
 		</Unit>
 		<Unit filename="C:/Users/mirko/CLionProjects/WayOfAdventure/Tile.h">
+			<Option target="WayOfAdventure"/>
 			<Option target="core"/>
 		</Unit>
 		<Unit filename="C:/Users/mirko/CLionProjects/WayOfAdventure/TileMap.cpp">
+			<Option target="WayOfAdventure"/>
 			<Option target="core"/>
 		</Unit>
 		<Unit filename="C:/Users/mirko/CLionProjects/WayOfAdventure/TileMap.h">
+			<Option target="WayOfAdventure"/>
 			<Option target="core"/>
 		</Unit>
 		<Unit filename="C:/Users/mirko/CLionProjects/WayOfAdventure/config.cpp">

@@ -360,6 +360,7 @@ Tile.obj: Tile.cpp.obj
 
 # target to build an object file
 Tile.cpp.obj:
+	$(MAKE) -f CMakeFiles\WayOfAdventure.dir\build.make CMakeFiles/WayOfAdventure.dir/Tile.cpp.obj
 	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Tile.cpp.obj
 .PHONY : Tile.cpp.obj
 
@@ -369,6 +370,7 @@ Tile.i: Tile.cpp.i
 
 # target to preprocess a source file
 Tile.cpp.i:
+	$(MAKE) -f CMakeFiles\WayOfAdventure.dir\build.make CMakeFiles/WayOfAdventure.dir/Tile.cpp.i
 	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Tile.cpp.i
 .PHONY : Tile.cpp.i
 
@@ -378,6 +380,7 @@ Tile.s: Tile.cpp.s
 
 # target to generate assembly for a file
 Tile.cpp.s:
+	$(MAKE) -f CMakeFiles\WayOfAdventure.dir\build.make CMakeFiles/WayOfAdventure.dir/Tile.cpp.s
 	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Tile.cpp.s
 .PHONY : Tile.cpp.s
 
@@ -387,6 +390,7 @@ TileMap.obj: TileMap.cpp.obj
 
 # target to build an object file
 TileMap.cpp.obj:
+	$(MAKE) -f CMakeFiles\WayOfAdventure.dir\build.make CMakeFiles/WayOfAdventure.dir/TileMap.cpp.obj
 	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/TileMap.cpp.obj
 .PHONY : TileMap.cpp.obj
 
@@ -396,6 +400,7 @@ TileMap.i: TileMap.cpp.i
 
 # target to preprocess a source file
 TileMap.cpp.i:
+	$(MAKE) -f CMakeFiles\WayOfAdventure.dir\build.make CMakeFiles/WayOfAdventure.dir/TileMap.cpp.i
 	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/TileMap.cpp.i
 .PHONY : TileMap.cpp.i
 
@@ -405,6 +410,7 @@ TileMap.s: TileMap.cpp.s
 
 # target to generate assembly for a file
 TileMap.cpp.s:
+	$(MAKE) -f CMakeFiles\WayOfAdventure.dir\build.make CMakeFiles/WayOfAdventure.dir/TileMap.cpp.s
 	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/TileMap.cpp.s
 .PHONY : TileMap.cpp.s
 

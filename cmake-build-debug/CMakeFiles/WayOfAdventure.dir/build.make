@@ -168,6 +168,34 @@ CMakeFiles/WayOfAdventure.dir/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WayOfAdventure.dir/Player.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mirko\CLionProjects\WayOfAdventure\Player.cpp -o CMakeFiles\WayOfAdventure.dir\Player.cpp.s
 
+CMakeFiles/WayOfAdventure.dir/TileMap.cpp.obj: CMakeFiles/WayOfAdventure.dir/flags.make
+CMakeFiles/WayOfAdventure.dir/TileMap.cpp.obj: CMakeFiles/WayOfAdventure.dir/includes_CXX.rsp
+CMakeFiles/WayOfAdventure.dir/TileMap.cpp.obj: ../TileMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mirko\CLionProjects\WayOfAdventure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/WayOfAdventure.dir/TileMap.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\WayOfAdventure.dir\TileMap.cpp.obj -c C:\Users\mirko\CLionProjects\WayOfAdventure\TileMap.cpp
+
+CMakeFiles/WayOfAdventure.dir/TileMap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WayOfAdventure.dir/TileMap.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mirko\CLionProjects\WayOfAdventure\TileMap.cpp > CMakeFiles\WayOfAdventure.dir\TileMap.cpp.i
+
+CMakeFiles/WayOfAdventure.dir/TileMap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WayOfAdventure.dir/TileMap.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mirko\CLionProjects\WayOfAdventure\TileMap.cpp -o CMakeFiles\WayOfAdventure.dir\TileMap.cpp.s
+
+CMakeFiles/WayOfAdventure.dir/Tile.cpp.obj: CMakeFiles/WayOfAdventure.dir/flags.make
+CMakeFiles/WayOfAdventure.dir/Tile.cpp.obj: CMakeFiles/WayOfAdventure.dir/includes_CXX.rsp
+CMakeFiles/WayOfAdventure.dir/Tile.cpp.obj: ../Tile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mirko\CLionProjects\WayOfAdventure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/WayOfAdventure.dir/Tile.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\WayOfAdventure.dir\Tile.cpp.obj -c C:\Users\mirko\CLionProjects\WayOfAdventure\Tile.cpp
+
+CMakeFiles/WayOfAdventure.dir/Tile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WayOfAdventure.dir/Tile.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mirko\CLionProjects\WayOfAdventure\Tile.cpp > CMakeFiles\WayOfAdventure.dir\Tile.cpp.i
+
+CMakeFiles/WayOfAdventure.dir/Tile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WayOfAdventure.dir/Tile.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mirko\CLionProjects\WayOfAdventure\Tile.cpp -o CMakeFiles\WayOfAdventure.dir\Tile.cpp.s
+
 # Object files for target WayOfAdventure
 WayOfAdventure_OBJECTS = \
 "CMakeFiles/WayOfAdventure.dir/main.cpp.obj" \
@@ -177,7 +205,9 @@ WayOfAdventure_OBJECTS = \
 "CMakeFiles/WayOfAdventure.dir/ConcreteStateMenu.cpp.obj" \
 "CMakeFiles/WayOfAdventure.dir/GameState.cpp.obj" \
 "CMakeFiles/WayOfAdventure.dir/ConcreteStateGame.cpp.obj" \
-"CMakeFiles/WayOfAdventure.dir/Player.cpp.obj"
+"CMakeFiles/WayOfAdventure.dir/Player.cpp.obj" \
+"CMakeFiles/WayOfAdventure.dir/TileMap.cpp.obj" \
+"CMakeFiles/WayOfAdventure.dir/Tile.cpp.obj"
 
 # External object files for target WayOfAdventure
 WayOfAdventure_EXTERNAL_OBJECTS =
@@ -190,6 +220,8 @@ WayOfAdventure.exe: CMakeFiles/WayOfAdventure.dir/ConcreteStateMenu.cpp.obj
 WayOfAdventure.exe: CMakeFiles/WayOfAdventure.dir/GameState.cpp.obj
 WayOfAdventure.exe: CMakeFiles/WayOfAdventure.dir/ConcreteStateGame.cpp.obj
 WayOfAdventure.exe: CMakeFiles/WayOfAdventure.dir/Player.cpp.obj
+WayOfAdventure.exe: CMakeFiles/WayOfAdventure.dir/TileMap.cpp.obj
+WayOfAdventure.exe: CMakeFiles/WayOfAdventure.dir/Tile.cpp.obj
 WayOfAdventure.exe: CMakeFiles/WayOfAdventure.dir/build.make
 WayOfAdventure.exe: ../lib/SFML/lib/libsfml-graphics-d.a
 WayOfAdventure.exe: ../lib/SFML/lib/libsfml-window-d.a
@@ -199,7 +231,7 @@ WayOfAdventure.exe: ../lib/SFML/lib/libsfml-system-d.a
 WayOfAdventure.exe: CMakeFiles/WayOfAdventure.dir/linklibs.rsp
 WayOfAdventure.exe: CMakeFiles/WayOfAdventure.dir/objects1.rsp
 WayOfAdventure.exe: CMakeFiles/WayOfAdventure.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\mirko\CLionProjects\WayOfAdventure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable WayOfAdventure.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\mirko\CLionProjects\WayOfAdventure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable WayOfAdventure.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\WayOfAdventure.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
