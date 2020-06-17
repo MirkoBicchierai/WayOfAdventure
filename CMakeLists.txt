@@ -20,7 +20,7 @@ if(SFML_FOUND)
     message(STATUS "SFML_VERSION: ${SFML_VERSION}")
 endif()
 
-set(SOURCE_FILES main.cpp config.cpp Game.h Game.cpp Menu.h Menu.cpp ConcreteStateMenu.h ConcreteStateMenu.cpp GameState.h GameState.cpp ConcreteStateGame.cpp ConcreteStateGame.h Player.cpp Player.h)
+set(SOURCE_FILES main.cpp config.cpp Game.h Game.cpp Menu.h Menu.cpp ConcreteStateMenu.h ConcreteStateMenu.cpp GameState.h GameState.cpp ConcreteStateGame.cpp ConcreteStateGame.h Player.cpp Player.h TileMap.cpp TileMap.h Tile.cpp Tile.h)
 
 include_directories(${SFML_INCLUDE_DIR})
 add_executable(WayOfAdventure main.cpp config.cpp Game.h Game.cpp Menu.h Menu.cpp ConcreteStateMenu.h ConcreteStateMenu.cpp GameState.h GameState.cpp ConcreteStateGame.cpp ConcreteStateGame.h Player.cpp Player.h)

@@ -168,6 +168,34 @@ CMakeFiles/core.dir/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Player.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mirko\CLionProjects\WayOfAdventure\Player.cpp -o CMakeFiles\core.dir\Player.cpp.s
 
+CMakeFiles/core.dir/TileMap.cpp.obj: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/TileMap.cpp.obj: CMakeFiles/core.dir/includes_CXX.rsp
+CMakeFiles/core.dir/TileMap.cpp.obj: ../TileMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mirko\CLionProjects\WayOfAdventure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/core.dir/TileMap.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\core.dir\TileMap.cpp.obj -c C:\Users\mirko\CLionProjects\WayOfAdventure\TileMap.cpp
+
+CMakeFiles/core.dir/TileMap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/TileMap.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mirko\CLionProjects\WayOfAdventure\TileMap.cpp > CMakeFiles\core.dir\TileMap.cpp.i
+
+CMakeFiles/core.dir/TileMap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/TileMap.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mirko\CLionProjects\WayOfAdventure\TileMap.cpp -o CMakeFiles\core.dir\TileMap.cpp.s
+
+CMakeFiles/core.dir/Tile.cpp.obj: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/Tile.cpp.obj: CMakeFiles/core.dir/includes_CXX.rsp
+CMakeFiles/core.dir/Tile.cpp.obj: ../Tile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\mirko\CLionProjects\WayOfAdventure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/core.dir/Tile.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\core.dir\Tile.cpp.obj -c C:\Users\mirko\CLionProjects\WayOfAdventure\Tile.cpp
+
+CMakeFiles/core.dir/Tile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/Tile.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\mirko\CLionProjects\WayOfAdventure\Tile.cpp > CMakeFiles\core.dir\Tile.cpp.i
+
+CMakeFiles/core.dir/Tile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/Tile.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\mirko\CLionProjects\WayOfAdventure\Tile.cpp -o CMakeFiles\core.dir\Tile.cpp.s
+
 # Object files for target core
 core_OBJECTS = \
 "CMakeFiles/core.dir/main.cpp.obj" \
@@ -177,7 +205,9 @@ core_OBJECTS = \
 "CMakeFiles/core.dir/ConcreteStateMenu.cpp.obj" \
 "CMakeFiles/core.dir/GameState.cpp.obj" \
 "CMakeFiles/core.dir/ConcreteStateGame.cpp.obj" \
-"CMakeFiles/core.dir/Player.cpp.obj"
+"CMakeFiles/core.dir/Player.cpp.obj" \
+"CMakeFiles/core.dir/TileMap.cpp.obj" \
+"CMakeFiles/core.dir/Tile.cpp.obj"
 
 # External object files for target core
 core_EXTERNAL_OBJECTS =
@@ -190,9 +220,11 @@ libcore.a: CMakeFiles/core.dir/ConcreteStateMenu.cpp.obj
 libcore.a: CMakeFiles/core.dir/GameState.cpp.obj
 libcore.a: CMakeFiles/core.dir/ConcreteStateGame.cpp.obj
 libcore.a: CMakeFiles/core.dir/Player.cpp.obj
+libcore.a: CMakeFiles/core.dir/TileMap.cpp.obj
+libcore.a: CMakeFiles/core.dir/Tile.cpp.obj
 libcore.a: CMakeFiles/core.dir/build.make
 libcore.a: CMakeFiles/core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\mirko\CLionProjects\WayOfAdventure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libcore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\mirko\CLionProjects\WayOfAdventure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libcore.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\core.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\core.dir\link.txt --verbose=$(VERBOSE)
 

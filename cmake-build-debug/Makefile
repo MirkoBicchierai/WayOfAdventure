@@ -354,6 +354,60 @@ Player.cpp.s:
 	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Player.cpp.s
 .PHONY : Player.cpp.s
 
+Tile.obj: Tile.cpp.obj
+
+.PHONY : Tile.obj
+
+# target to build an object file
+Tile.cpp.obj:
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Tile.cpp.obj
+.PHONY : Tile.cpp.obj
+
+Tile.i: Tile.cpp.i
+
+.PHONY : Tile.i
+
+# target to preprocess a source file
+Tile.cpp.i:
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Tile.cpp.i
+.PHONY : Tile.cpp.i
+
+Tile.s: Tile.cpp.s
+
+.PHONY : Tile.s
+
+# target to generate assembly for a file
+Tile.cpp.s:
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/Tile.cpp.s
+.PHONY : Tile.cpp.s
+
+TileMap.obj: TileMap.cpp.obj
+
+.PHONY : TileMap.obj
+
+# target to build an object file
+TileMap.cpp.obj:
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/TileMap.cpp.obj
+.PHONY : TileMap.cpp.obj
+
+TileMap.i: TileMap.cpp.i
+
+.PHONY : TileMap.i
+
+# target to preprocess a source file
+TileMap.cpp.i:
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/TileMap.cpp.i
+.PHONY : TileMap.cpp.i
+
+TileMap.s: TileMap.cpp.s
+
+.PHONY : TileMap.s
+
+# target to generate assembly for a file
+TileMap.cpp.s:
+	$(MAKE) -f CMakeFiles\core.dir\build.make CMakeFiles/core.dir/TileMap.cpp.s
+.PHONY : TileMap.cpp.s
+
 config.obj: config.cpp.obj
 
 .PHONY : config.obj
@@ -445,6 +499,12 @@ help:
 	@echo ... Player.obj
 	@echo ... Player.i
 	@echo ... Player.s
+	@echo ... Tile.obj
+	@echo ... Tile.i
+	@echo ... Tile.s
+	@echo ... TileMap.obj
+	@echo ... TileMap.i
+	@echo ... TileMap.s
 	@echo ... config.obj
 	@echo ... config.i
 	@echo ... config.s

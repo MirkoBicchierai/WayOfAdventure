@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/core.dir/GameState.cpp.obj"
   "CMakeFiles/core.dir/ConcreteStateGame.cpp.obj"
   "CMakeFiles/core.dir/Player.cpp.obj"
+  "CMakeFiles/core.dir/TileMap.cpp.obj"
+  "CMakeFiles/core.dir/Tile.cpp.obj"
   "libcore.pdb"
   "libcore.a"
 )

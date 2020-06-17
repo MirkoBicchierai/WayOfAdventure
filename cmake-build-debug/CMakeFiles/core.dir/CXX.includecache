@@ -676,47 +676,39 @@ SFML/Config.hpp
 
 ../lib/SFML/include/SFML/Window/WindowStyle.hpp
 
-C:/Users/mirko/CLionProjects/WayOfAdventure/ConcreteStateGame.cpp
-config.cpp
-C:/Users/mirko/CLionProjects/WayOfAdventure/config.cpp
-SFML/Graphics.hpp
-C:/Users/mirko/CLionProjects/WayOfAdventure/SFML/Graphics.hpp
-ConcreteStateGame.h
-C:/Users/mirko/CLionProjects/WayOfAdventure/ConcreteStateGame.h
-ConcreteStateMenu.h
-C:/Users/mirko/CLionProjects/WayOfAdventure/ConcreteStateMenu.h
+C:/Users/mirko/CLionProjects/WayOfAdventure/Tile.cpp
+Tile.h
+C:/Users/mirko/CLionProjects/WayOfAdventure/Tile.h
 iostream
 -
+config.cpp
+C:/Users/mirko/CLionProjects/WayOfAdventure/config.cpp
 
-C:/Users/mirko/CLionProjects/WayOfAdventure/ConcreteStateGame.h
-GameState.h
-C:/Users/mirko/CLionProjects/WayOfAdventure/GameState.h
-Player.h
-C:/Users/mirko/CLionProjects/WayOfAdventure/Player.h
+C:/Users/mirko/CLionProjects/WayOfAdventure/Tile.h
+SFML/Graphics.hpp
+-
 
-C:/Users/mirko/CLionProjects/WayOfAdventure/ConcreteStateMenu.h
-GameState.h
-C:/Users/mirko/CLionProjects/WayOfAdventure/GameState.h
-Menu.h
-C:/Users/mirko/CLionProjects/WayOfAdventure/Menu.h
+C:/Users/mirko/CLionProjects/WayOfAdventure/TileMap.cpp
+SFML/Graphics.hpp
+-
+iostream
+-
+TileMap.h
+C:/Users/mirko/CLionProjects/WayOfAdventure/TileMap.h
+config.cpp
+C:/Users/mirko/CLionProjects/WayOfAdventure/config.cpp
+json/value.h
+-
+fstream
+-
 
-C:/Users/mirko/CLionProjects/WayOfAdventure/Game.h
+C:/Users/mirko/CLionProjects/WayOfAdventure/TileMap.h
+SFML/Graphics.hpp
+-
 vector
 -
-SFML/Graphics.hpp
-C:/Users/mirko/CLionProjects/WayOfAdventure/SFML/Graphics.hpp
-
-C:/Users/mirko/CLionProjects/WayOfAdventure/GameState.h
-Game.h
-C:/Users/mirko/CLionProjects/WayOfAdventure/Game.h
-
-C:/Users/mirko/CLionProjects/WayOfAdventure/Menu.h
-SFML/Graphics.hpp
--
-
-C:/Users/mirko/CLionProjects/WayOfAdventure/Player.h
-SFML/Graphics.hpp
-C:/Users/mirko/CLionProjects/WayOfAdventure/SFML/Graphics.hpp
+Tile.h
+C:/Users/mirko/CLionProjects/WayOfAdventure/Tile.h
 
 C:/Users/mirko/CLionProjects/WayOfAdventure/config.cpp
 

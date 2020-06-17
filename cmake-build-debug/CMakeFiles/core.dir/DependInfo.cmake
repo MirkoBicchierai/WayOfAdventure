@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/mirko/CLionProjects/WayOfAdventure/GameState.cpp" "C:/Users/mirko/CLionProjects/WayOfAdventure/cmake-build-debug/CMakeFiles/core.dir/GameState.cpp.obj"
   "C:/Users/mirko/CLionProjects/WayOfAdventure/Menu.cpp" "C:/Users/mirko/CLionProjects/WayOfAdventure/cmake-build-debug/CMakeFiles/core.dir/Menu.cpp.obj"
   "C:/Users/mirko/CLionProjects/WayOfAdventure/Player.cpp" "C:/Users/mirko/CLionProjects/WayOfAdventure/cmake-build-debug/CMakeFiles/core.dir/Player.cpp.obj"
+  "C:/Users/mirko/CLionProjects/WayOfAdventure/Tile.cpp" "C:/Users/mirko/CLionProjects/WayOfAdventure/cmake-build-debug/CMakeFiles/core.dir/Tile.cpp.obj"
+  "C:/Users/mirko/CLionProjects/WayOfAdventure/TileMap.cpp" "C:/Users/mirko/CLionProjects/WayOfAdventure/cmake-build-debug/CMakeFiles/core.dir/TileMap.cpp.obj"
   "C:/Users/mirko/CLionProjects/WayOfAdventure/config.cpp" "C:/Users/mirko/CLionProjects/WayOfAdventure/cmake-build-debug/CMakeFiles/core.dir/config.cpp.obj"
   "C:/Users/mirko/CLionProjects/WayOfAdventure/main.cpp" "C:/Users/mirko/CLionProjects/WayOfAdventure/cmake-build-debug/CMakeFiles/core.dir/main.cpp.obj"
   )

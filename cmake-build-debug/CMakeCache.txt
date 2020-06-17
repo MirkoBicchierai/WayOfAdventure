@@ -256,6 +256,9 @@ CMAKE_STRIP:FILEPATH=C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//pkg-config executable
+PKG_CONFIG_EXECUTABLE:FILEPATH=PKG_CONFIG_EXECUTABLE-NOTFOUND
+
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64/python.exe
 
@@ -267,6 +270,9 @@ WayOfAdventure_BINARY_DIR:STATIC=C:/Users/mirko/CLionProjects/WayOfAdventure/cma
 
 //Value Computed by CMake
 WayOfAdventure_SOURCE_DIR:STATIC=C:/Users/mirko/CLionProjects/WayOfAdventure
+
+//The directory containing a CMake configuration file for glfw3.
+glfw3_DIR:PATH=glfw3_DIR-NOTFOUND
 
 //Value Computed by CMake
 gtest_BINARY_DIR:STATIC=C:/Users/mirko/CLionProjects/WayOfAdventure/cmake-build-debug/googleTest/lib/googletest
@@ -458,6 +464,8 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding PythonInterp
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64/python.exe][v3.7.5()]
+//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
+PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PYTHON_EXECUTABLE
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 
