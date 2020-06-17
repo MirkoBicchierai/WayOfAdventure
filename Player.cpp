@@ -17,10 +17,13 @@ Player::Player() {
 void Player::movePlayer(char direction) {
     float x=0;
 
-    if(cRun!=maxCrun)
+    if(cRun!=maxCrun && moveClock.getElapsedTime().asMilliseconds()>=40.f){
         cRun++;
-    else
+        moveClock.restart();
+    }
+    if(cRun==maxCrun)
         cRun=1;
+
     RunTexture.loadFromFile(IMG_ROOT"/Player/Robot/mov/Run ("+std::to_string(cRun)+").png");
 
     if (direction == 'l') {

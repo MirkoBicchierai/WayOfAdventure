@@ -9,6 +9,7 @@ public:
     sf::Sprite entitySprite;
     bool idle;
 private:
+    sf::Clock moveClock;
     int actualDirection;
     float moveSpeed;
     sf::Texture IdleTexture;
