@@ -10,7 +10,7 @@ void TileMap::load(const std::string& tileSet,const std::string &level,sf::Vecto
     texture.loadFromFile(tileSet);
     width=dim.x;
     height=dim.y;
-    sf::Vector2u tileSize(128,128);
+    sf::Vector2u tileSize(tileControl::dim,tileControl::dim);
     std::string path = MAP_ROOT"/maps/level/"+level;
     loadTerrain(tileSize,path);
     loadWater(tileSize,path);

@@ -483,6 +483,7 @@ CMakeFiles/WayOfAdventure.dir/Player.cpp.obj
  ../lib/SFML/include/SFML/Window/WindowStyle.hpp
  C:/Users/mirko/CLionProjects/WayOfAdventure/Player.cpp
  C:/Users/mirko/CLionProjects/WayOfAdventure/Player.h
+ C:/Users/mirko/CLionProjects/WayOfAdventure/Tile.h
  C:/Users/mirko/CLionProjects/WayOfAdventure/config.cpp
 CMakeFiles/WayOfAdventure.dir/Tile.cpp.obj
  ../lib/SFML/include/SFML/Config.hpp

@@ -6,8 +6,10 @@
 #define MAP_ROOT "../img/Map"
 
 enum controlP{
-    leftP=0,
-    RightP=1,
     maxCrun=8,
     maxcIdle=10,
+};
+
+enum tileControl{
+    dim=128,
 };

@@ -482,6 +482,7 @@ CMakeFiles/WayOfAdventure.dir/Player.cpp.obj: ../lib/SFML/include/SFML/Window/Wi
 CMakeFiles/WayOfAdventure.dir/Player.cpp.obj: ../lib/SFML/include/SFML/Window/WindowStyle.hpp
 CMakeFiles/WayOfAdventure.dir/Player.cpp.obj: ../Player.cpp
 CMakeFiles/WayOfAdventure.dir/Player.cpp.obj: ../Player.h
+CMakeFiles/WayOfAdventure.dir/Player.cpp.obj: ../Tile.h
 CMakeFiles/WayOfAdventure.dir/Player.cpp.obj: ../config.cpp
 
 CMakeFiles/WayOfAdventure.dir/Tile.cpp.obj: ../lib/SFML/include/SFML/Config.hpp

@@ -2,11 +2,11 @@
 #include "SFML/Graphics.hpp"
 #include "ConcreteStateGame.h"
 #include "ConcreteStateMenu.h"
-#include <iostream>
 
 ConcreteStateGame::ConcreteStateGame(Game* game){
     this->game = game;
 }
+
 void ConcreteStateGame::handleInput(){
     sf::Event event{};
     while (game->window.pollEvent(event)) {
@@ -18,9 +18,9 @@ void ConcreteStateGame::handleInput(){
                 backToMenu();
             }
             if(event.key.code == sf::Keyboard::Left){
-                mainCharacter.movePlayer('l');
+                mainCharacter.movePlayer('l',actualLevel.tileTerrain);
             }else if(event.key.code == sf::Keyboard::Right){
-                mainCharacter.movePlayer('r');
+                mainCharacter.movePlayer('r',actualLevel.tileTerrain);
             }
         }
 
@@ -43,10 +43,21 @@ void ConcreteStateGame::update(){
         controlMovePlayer.restart();
     }
 
+    controlPlayer=false;
+    for(auto i:actualLevel.tileTerrain){
+        if(mainCharacter.collisionRectangle.getGlobalBounds().intersects(i.collision.getGlobalBounds())){
+            controlPlayer=true;
+        }
+    }
+
+    if(!controlPlayer){
+        mainCharacter.gravity();
+    }
+    game->window.setView(mainCharacter.camera);
 }
 
 void ConcreteStateGame::draw(){
-    mainCharacter.draw(game->window);
+
     for(auto i:actualLevel.tileTerrain){
         i.drawTile(game->window);
     }
@@ -56,12 +67,14 @@ void ConcreteStateGame::draw(){
     for(auto k:actualLevel.tileWater){
         k.drawTile(game->window);
     }
+
+    mainCharacter.draw(game->window);
+
 }
 
 void ConcreteStateGame::backToMenu(){
     game->init=true;
     game->pushState(new ConcreteStateMenu(game));
-    std::cout<<"funge";
 }
 
 void ConcreteStateGame::Init() {

@@ -10,6 +10,7 @@ public:
     void Init() override;
 
 private:
+    bool controlPlayer;
     TileMap actualLevel{};
     sf::Clock controlMovePlayer;
     sf::Clock idleClock;

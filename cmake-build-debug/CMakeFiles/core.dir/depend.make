@@ -482,6 +482,7 @@ CMakeFiles/core.dir/Player.cpp.obj: ../lib/SFML/include/SFML/Window/WindowHandle
 CMakeFiles/core.dir/Player.cpp.obj: ../lib/SFML/include/SFML/Window/WindowStyle.hpp
 CMakeFiles/core.dir/Player.cpp.obj: ../Player.cpp
 CMakeFiles/core.dir/Player.cpp.obj: ../Player.h
+CMakeFiles/core.dir/Player.cpp.obj: ../Tile.h
 CMakeFiles/core.dir/Player.cpp.obj: ../config.cpp
 
 CMakeFiles/core.dir/Tile.cpp.obj: ../lib/SFML/include/SFML/Config.hpp

@@ -41,4 +41,5 @@ void ConcreteStateMenu::startGame(){
 
 void ConcreteStateMenu::Init() {
     game->init=false;
+    game->window.setView(game->window.getDefaultView());
 }
