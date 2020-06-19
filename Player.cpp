@@ -10,7 +10,7 @@ Player::Player() {
     collisionRectangle.setPosition(entitySprite.getPosition().x+20,entitySprite.getPosition().y+22);
     collisionRectangle.setSize(sf::Vector2f(80,97));
     controlMove.setPosition(entitySprite.getPosition().x+18,entitySprite.getPosition().y+21);
-    controlMove.setSize(sf::Vector2f(84,90));
+    controlMove.setSize(sf::Vector2f(84,84));
     moveSpeed=6;
     cRun=1;
     cIdle=1;
@@ -18,6 +18,32 @@ Player::Player() {
     idle=true;
     camera.setCenter(entitySprite.getPosition().x+dim/2,entitySprite.getPosition().y+dim/2);
     camera.setSize(WIDTH, HIGHT);
+
+    xJump=0;
+    y = 0;
+    velocityY = 0;
+    accelerationY = 0;
+    gravity = 1;
+
+}
+
+void Player::updateMovement(std::vector<Tile> &tileTerrain) {
+
+    if(y < 5)
+        velocityY += gravity;
+    else if(y > 5)
+        y = 5;
+
+    velocityY += accelerationY;
+    y += velocityY;
+
+    if(controlMoveTile(tileTerrain)) {
+        entitySprite.move(xJump, y);
+        camera.move(xJump, y);
+        collisionRectangle.move(xJump, y);
+        controlMove.move(xJump, y);
+    }
+
 }
 
 void Player::movePlayer(char direction,std::vector<Tile> &tileTerrain) {
@@ -77,12 +103,17 @@ void Player::idleAnimation() {
     entitySprite.setTexture(IdleTexture);
 }
 
-void Player::gravity() {
-    entitySprite.move(0,5);
-    camera.move(0,5);
-    collisionRectangle.move(0,5);
-    controlMove.move(0,5);
+bool Player::controlMoveTile(std::vector<Tile> &tileTerrain) {
+    controlMove.move(xJump,y);
+    bool check=true;
+    for(auto& i:tileTerrain){
+        if (controlMove.getGlobalBounds().intersects(i.collision.getGlobalBounds()))
+            check = false;
+    }
+    controlMove.move(-xJump,-y);
+    return check;
 }
+
 
 
 

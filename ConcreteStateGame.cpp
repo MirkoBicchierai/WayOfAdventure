@@ -2,8 +2,9 @@
 #include "SFML/Graphics.hpp"
 #include "ConcreteStateGame.h"
 #include "ConcreteStateMenu.h"
-
+#include <iostream>
 ConcreteStateGame::ConcreteStateGame(Game* game){
+    checkGround=false;
     this->game = game;
 }
 
@@ -12,19 +13,31 @@ void ConcreteStateGame::handleInput(){
     while (game->window.pollEvent(event)) {
         if (event.type == sf::Event::Closed)
             game->window.close();
-
         if(event.type == sf::Event::KeyPressed){
-            if(event.key.code == sf::Keyboard::Escape){
+            if(event.key.code == sf::Keyboard::Escape)
                 backToMenu();
+            checkGround=false;
+            for(auto i:actualLevel.tileTerrain){
+                if(i.collision.getGlobalBounds().intersects(mainCharacter.collisionRectangle.getGlobalBounds())){
+                    checkGround=true;
+                }
             }
-            if(event.key.code == sf::Keyboard::Left){
-                mainCharacter.movePlayer('l',actualLevel.tileTerrain);
-            }else if(event.key.code == sf::Keyboard::Right){
-                mainCharacter.movePlayer('r',actualLevel.tileTerrain);
-            }
-        }
+            if(sf::Keyboard::isKeyPressed(sf::Keyboard::Space) && checkGround)
+                mainCharacter.velocityY = -8;
 
+        }
     }
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
+        mainCharacter.movePlayer('l', actualLevel.tileTerrain);
+        mainCharacter.xJump = -8;
+    }
+    else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
+        mainCharacter.movePlayer('r', actualLevel.tileTerrain);
+        mainCharacter.xJump = 8;
+    }else
+        mainCharacter.xJump = 0;
+
+    mainCharacter.updateMovement(actualLevel.tileTerrain);
 }
 
 void ConcreteStateGame::update(){
@@ -43,16 +56,6 @@ void ConcreteStateGame::update(){
         controlMovePlayer.restart();
     }
 
-    controlPlayer=false;
-    for(auto i:actualLevel.tileTerrain){
-        if(mainCharacter.collisionRectangle.getGlobalBounds().intersects(i.collision.getGlobalBounds())){
-            controlPlayer=true;
-        }
-    }
-
-    if(!controlPlayer){
-        mainCharacter.gravity();
-    }
     game->window.setView(mainCharacter.camera);
 }
 
@@ -78,6 +81,6 @@ void ConcreteStateGame::backToMenu(){
 }
 
 void ConcreteStateGame::Init() {
-    actualLevel.load(MAP_ROOT"/Basic/Tiles/TileSet.png","Level1",sf::Vector2u(100,20));
+    actualLevel.load(MAP_ROOT"/Basic/Tiles/TileSet.png","Level1",sf::Vector2u(100,10));
     game->init=false;
 }

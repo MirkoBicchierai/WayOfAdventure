@@ -6,18 +6,28 @@ public:
     void movePlayer(char direction,std::vector<Tile> &tileTerrain);
     void draw(sf::RenderWindow &window);
     void idleAnimation();
+    void updateMovement(std::vector<Tile> &tileTerrain);
+
     sf::Vector2f currentXYPlayer;
     sf::Sprite entitySprite;
     sf::RectangleShape collisionRectangle;
     sf::RectangleShape controlMove;
-    bool idle;
     sf::View camera;
-    void gravity();
+
+    bool idle;
+    float velocityY = 0;
+    float xJump;
 private:
+    bool controlMoveTile(std::vector<Tile> &tileTerrain);
     sf::Clock moveClock;
     float moveSpeed;
     sf::Texture IdleTexture;
     sf::Texture RunTexture;
     int cRun;
     int cIdle;
+
+    float y = 0;
+    float accelerationY = 0;
+    float gravity = 2;
+
 };

@@ -8,6 +8,8 @@
 enum controlP{
     maxCrun=8,
     maxcIdle=10,
+    Right=1,
+    Left=0,
 };
 
 enum tileControl{
